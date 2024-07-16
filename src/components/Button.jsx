@@ -6,4 +6,5 @@ const Button = ({text, onClick})=>{return (
 ); 
 };
 
+<Button text={"Learn more"}/>
 export default Button;

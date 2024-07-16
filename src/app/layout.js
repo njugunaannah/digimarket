@@ -21,10 +21,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
       <Navbar/>
-      <Header/>
+      
       <SkillSection/>
       
-      <Button text={"Learn more"}/>
+      
       {children}
       <SocialLinks/>
       <Card/>
