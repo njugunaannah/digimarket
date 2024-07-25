@@ -12,20 +12,20 @@ export default function Home() {
     // Add more skills here as needed
   ]
   return (
-    <main>
+    <main className="h-full">
       
       <div>
-      <h2 className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <h2 className="fixed left-0 ml-4 mr-4 top-0 flex w-full h-full justify-center pt-8 lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-blue-200 ">
           Welcome to DigiMarket- Your Trusted Digital Marketing Agent
         </h2>
         
-        <p>
+        <p className="flex ml-8 align-middle justify-center">
           Here you will find all the information you need to establish a clear roadmap for marketing your business.
         </p>
       </div>
       <br/>
       <br/>
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <div className="z-10 max-w-5xl w-full h-full items-center justify-between font-mono text-sm lg:flex ml-4 mr-4">
        
       
         
@@ -35,13 +35,8 @@ export default function Home() {
         
        
       </div>
-{/* <div>
-<button text= {"Learn more"}></button>
-</div> */}
-<br/>
-      <div className="flex bg-blue-400">
-        <p>this is me</p>
-      </div>
+
+
     </main>
   );
 }

@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       
       {children}
       <SocialLinks/>
-      <Card/>
+      
       <Footer/>
       </body>
     </html>
